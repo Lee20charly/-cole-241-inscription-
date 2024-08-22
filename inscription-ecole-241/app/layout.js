@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body className={inter.className}>
-        <AntdRegistry>{children}</AntdRegistry>
+        <AntdRegistry>{children}      </AntdRegistry>
       </body>
     </html>
   );
